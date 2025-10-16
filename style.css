@@ -240,13 +240,14 @@ header {
     
 }
 .propos-description h3 {
-    font-size: 55px;
+    font-size: 45px;
     font-family: 'Inknut Antiqua', serif;
-    font-weight: 400;
+    font-weight: 350;
+    line-height: 60px;
 }
 
 .propos-description p {
-    line-height: 45px;
+    line-height: 40px;
     width: 450px;
 
 }
