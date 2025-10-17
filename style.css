@@ -618,3 +618,147 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/* ========== media responsive part ========== */
+
+@media (max-width: 550px) {
+    header {
+        font-size: xx-small;
+        width: 100%;
+    }
+    .img-content {
+        width: 300px;
+    }
+
+    .description-text {
+        width: 300px;
+    }
+
+    .hero-para {
+        line-height: 1em;
+    }
+
+    .links {
+        margin-top: 10px;
+    }
+
+    .hero-link2 {
+        padding: 10px 20px;
+        font-size: xx-small;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-link3 {
+        padding: 0px 20px;
+        font-size: xx-small;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-link4 {
+        padding: 0px 20px;
+        font-size: xx-small;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-link5 {
+        padding: 0px 20px;
+        font-size: xx-small;
+        display: flex;
+        align-items: center;
+    }
+
+    .right-hero {
+        width: 300px;
+        height: 300px;
+        padding: 15px;
+    }
+
+    .formation-title {
+        font-size: 20px;
+    }
+    .right-hero-up-des {
+        font-size: small;
+        line-height: 27px;
+    }
+
+    .right-hero-down {
+        font-size: small;
+        line-height: 27px;
+    }
+
+    .left-hero {
+        width: 300px;
+        height: 300px;
+        padding: 15px;
+        line-height: 25px;
+        font-size: small;
+    }
+
+    .projets-title {
+        font-size: 20px;
+    }
+
+    .projet-card {
+        width: 300px;
+        height: 425px;
+    }
+
+    .contact-left-hero {
+        width: 400px;
+    }
+
+    .contact-left-hero h2 {
+        font-size: 30px;
+        width: 300px;
+
+    }
+
+    .link-cont {
+        font-size: 15px;
+        letter-spacing: 15px;
+    }
+
+    .contact-link p {
+        font-size: 7px;
+    }
+
+    .contact-right-hero {
+        width: 350px;
+    }
+
+    .contact-right-hero h2 {
+        font-size: 15px;
+        letter-spacing: 10px;
+    }
+
+    .message-block {
+        height: 350px;
+
+    }
+
+    .message-content label {
+        font-size: medium;
+    }
+
+    .message-content {
+        width: 100%;
+    }
+    .comppi {
+        width: 300px;
+    }
+    .propos-description h3 {
+        font-size: 35px;
+        width: 300px;
+    }
+    .propos-description p {
+        width: 300px;
+    }
+    .apropos-img-content {
+        width: 300px;
+        height: 400px;
+    }
+
+}
