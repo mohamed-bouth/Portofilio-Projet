@@ -29,6 +29,7 @@ header {
     font-size: large;
     gap: 1em;
     position: fixed;
+    z-index: 1000;
 }
 
 /* ========== accuiel section ========== */
@@ -47,11 +48,11 @@ header {
     align-content: center;
 }
 .description {
-    
     text-align: center;
     align-content: center;
     color: white;
 }
+
 
 .description-text {
     height: 200px;
@@ -73,6 +74,7 @@ header {
     color: white;
 }
 
+
 .hero-link2 {
     text-decoration: none;
     background-color: black;
@@ -81,6 +83,13 @@ header {
     border-radius: 30px;
     font-weight: bold;
     padding: 10px 30px;
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-link2:hover {
+    transform: scale(1.1);
 }
 
 .hero-link3 {
@@ -91,6 +100,13 @@ header {
     border-radius: 30px;
     font-weight: bold;
     padding: 10px 30px;
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-link3:hover {
+    transform: scale(1.1);
 }
 
 .hero-link4 {
@@ -101,6 +117,13 @@ header {
     border-radius: 30px;
     font-weight: bold;
     padding: 10px 30px;
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-link4:hover {
+    transform: scale(1.1);
 }
 
 .hero-link5 {
@@ -111,6 +134,13 @@ header {
     border-radius: 30px;
     font-weight: bold;
     padding: 10px 30px;
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-link5:hover {
+    transform: scale(1.1);
 }
 
 .links {
@@ -175,6 +205,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out
+}
+
+.pro-btn-r:hover {
+    transform: scale(1.1);
 }
 .pro-btn-l {
     padding: 5px 30px;
@@ -184,6 +221,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out
+}
+
+.pro-btn-l:hover {
+    transform: scale(1.1);
 }
 
 .btn-container {
@@ -517,6 +561,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    
 }
 
 .contact-img {
@@ -608,6 +653,13 @@ header {
     color: white;
     font-size: large;
     cursor: pointer;
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out
+
+}
+.message-block button:hover {
+    transform: scale(1.1);
 }
 /* ========== footer section ========== */
 footer {
@@ -880,6 +932,7 @@ footer {
     .pro-btn-r {
         font-size: xx-small;
         padding: 5px 15px;
+        
     }
 
     .pro-btn-l {
