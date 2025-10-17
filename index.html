@@ -18,17 +18,17 @@
 </head>
 <body>
     <header>
-            <div><a class="head-content" href="#Accueil">Accueil</a></div>
-            <div><a class="head-content" href="#propos">À Propos</a></div>
-            <div><a class="head-content" href="#projets">Projets</a></div>
-            <div><a class="head-content" href="#formations">Formations</a></div>
-            <div><a class="head-content" href="#contact">Contact</a></div>
-            <div class="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-            </div>
-    </header>
+    <div class="navbar">
+        <ul>
+            <li><a class="head-content" href="#Accueil">Accueil</a></li>
+            <li><a class="head-content" href="#propos">À Propos</a></li>
+            <li><a class="head-content" href="#projets">Projets</a></li>
+            <li><a class="head-content" href="#formations">Formations</a></li>
+            <li><a class="head-content" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="menu-toggle">&#9776;</div>
+</header>
     <main>
         <section id="Accueil" class="hero-block">
                 <div class="img-block">
@@ -252,24 +252,14 @@
         </section>
     </main>
     <footer>
-        <p>by mohamed bouth</p>
+        <p>by mohamed bouthhandoust</p>
     </footer>
     <script>
-        const burger = document.querySelector('.burger');
-        const navLinks = document.querySelector('header');
-        const links = document.querySelectorAll('.head-content');
-
-        burger.addEventListener('click', () => {
-        burger.classList.toggle('active');
-        navLinks.classList.toggle('open');
-        });
-
-        links.forEach(link => {
-            link.addEventListener('click', () => {
-            burger.classList.remove('active');
-            navLinks.classList.remove('open');
-            });
-        });
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navbar = document.querySelector('.navbar ul');
+        menuToggle.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+    });
 </script>
 </body>
 </html>
