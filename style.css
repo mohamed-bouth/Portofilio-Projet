@@ -864,7 +864,7 @@ footer {
         width: 150px;
         height: 150px;
         padding: 15px;
-        line-height: 14px;
+        line-height: 13px;
         font-size: 6px;
     }
 
@@ -914,7 +914,7 @@ footer {
     }
 
     .contact-right-hero h2 {
-        font-size: 15px;
+        font-size: 13px;
         letter-spacing: 7px;
     }
 
