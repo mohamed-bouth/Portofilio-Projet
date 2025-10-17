@@ -5,6 +5,7 @@ html {
 }
 
 *{
+    box-sizing:content-box;
     margin: 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -761,4 +762,210 @@ footer {
         height: 400px;
     }
 
+    .r1 p{
+        padding-left:75px;
+    }
+    .r-out {
+        padding-left:25px ;
+    }
+    .r3 p {
+        padding-left:75px;
+    }
+    .r4 p {
+        padding-left:75px;
+    }
+    .r5 p {
+        padding-left:75px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    header {
+        font-size: 7px ;
+        width: 100%;
+    }
+
+    .hero-block {
+        height: 400px;
+    }
+    .img-content {
+        width: 150px;
+        height: 150px;
+    }
+
+    .description {
+        height: 250px;
+        width: 200px;
+    }
+
+    .description-text {
+        width: 200px;
+        font-size: x-small;
+        height: 150px;
+    }
+
+    .hero-para {
+        line-height: 1em;
+    }
+
+    .links {
+        width: 200x;
+    }
+
+    .hero-link2 {
+        padding: 10px 15px;
+        font-size: 7px;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-link3 {
+        padding: 0px 15px;
+        font-size: 7px;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-link4 {
+        padding: 0px 15px;
+        font-size: 7px;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-link5 {
+        padding: 0px 15px;
+        font-size: 7px;
+        display: flex;
+        align-items: center;
+    }
+
+    .right-hero {
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+    }
+
+    .formation-title {
+        font-size:15px;
+    }
+    .right-hero-up-des {
+        font-size: 7px;
+        line-height: 14px;
+    }
+
+    .right-hero-down {
+        font-size: 7px;
+        line-height: 14px;
+    }
+
+    .left-hero {
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+        line-height: 14px;
+        font-size: 6px;
+    }
+
+    .projets-title {
+        font-size: 20px;
+    }
+    .projet-card {
+        width: 150px;
+        height: 250px;
+        font-size: x-small;
+    }
+
+    .pro-btn-r {
+        font-size: xx-small;
+        padding: 5px 15px;
+    }
+
+    .pro-btn-l {
+        font-size: xx-small;
+        padding: 5px 10px;
+    }
+
+    .contact-left-hero {
+        width: 100%;
+    }
+
+    .contact-left-hero h2 {
+        font-size: 22px;
+        letter-spacing: 20px;
+        width: 200px;
+        font-weight: 800;
+
+    }
+
+    .link-cont {
+        font-size: 17px;
+        letter-spacing: 7px;
+        width: 80%;
+    }
+
+    .contact-link p {
+        font-size: 7px;
+    }
+
+    .contact-right-hero {
+        width: 90%;
+    }
+
+    .contact-right-hero h2 {
+        font-size: 15px;
+        letter-spacing: 7px;
+    }
+
+    .message-block {
+        height: auto;
+
+    }
+
+    .message-content label {
+        font-size: xx-small;
+    }
+
+    .message-content {
+        width: 100%;
+    }
+    .comppi {
+        width: 100%;
+    }
+    .propos-description h3 {
+        font-size: 20px;
+        width: 150px;
+    }
+    .propos-description p {
+        width: 200px;
+        font-size: xx-small;
+    }
+    .apropos-img-content {
+        width: 200px;
+        height: 250px;
+    }
+
+    .skills {
+        width: 90%;
+    }
+    .tit-skills {
+        font-size: large;
+    }
+    .text-com {
+        align-items: center;
+    }
+
+    .text-label {
+        height: 40px;
+        font-size: xx-small;
+    }
+
+    .message-label {
+        font-size: xx-small;
+    }
+    .message-block button {
+        padding: 5px 10px;
+        font-size: small;
+    }
 }
