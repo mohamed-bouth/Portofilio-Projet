@@ -592,7 +592,14 @@ header {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
     
+}
+
+.link-cont:hover {
+    transform: scale(1.1);
 }
 
 .contact-img {
@@ -1102,7 +1109,6 @@ footer {
     padding-top: 80px;
     transition: left 0.3s ease-in-out;
     font-size: larger;
-
   }
 
   .navbar ul.active {
